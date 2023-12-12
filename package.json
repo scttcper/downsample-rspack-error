@@ -1,0 +1,17 @@
+{
+  "name": "rsbuild-vanilla-ts",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.2.1",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "downsample": "^1.4.0"
+  }
+}
